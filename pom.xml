@@ -149,4 +149,18 @@
 			<url>file://var/jenkins_home/.m2/repository/</url>
 		</repository>
 	</repositories>
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>local-repo</id>
+			<name>Local repository on bfsi023</name>
+			<url>scp://.m2/repository/</url>
+		</repository>
+		<snapshotRepository>
+			<id>local-repo</id>
+			<uniqueVersion>false</uniqueVersion>
+			<name>Local repository on bfsi023</name>
+			<url>scp://.m2/repository/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	</project>
