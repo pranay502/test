@@ -18,7 +18,7 @@
 					<target>1.7</target>
 					<encoding>Cp1252</encoding>
 					<compilerArguments>
-						<bootclasspath>${java.1.7.jrehome}/jre/lib/rt.jar</bootclasspath>
+						<bootclasspath>/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar</bootclasspath>
 					</compilerArguments>
 					<fork>true</fork>
 					<meminitial>128m</meminitial>
