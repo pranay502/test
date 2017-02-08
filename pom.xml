@@ -47,7 +47,7 @@
 						<phase>deploy</phase>
 						<configuration>
 							<tasks>
-								<copy file="target/${project.build.finalName}.jar" todir="D:/JIRA/lib"
+								<copy file="target/${project.build.finalName}.jar" todir="/var/build"
 									overwrite="true" />
 							</tasks>
 						</configuration>
@@ -85,61 +85,61 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.8.1</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
    	 <groupId>org.freemarker</groupId>
     <artifactId>freemarker</artifactId>
     <version>2.3.25-incubating</version>
-			<scope>provided</scope>
+			
 </dependency>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.14</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>javax.mail</groupId>
 			<artifactId>mail</artifactId>
 			<version>1.4</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
 			<version>2.5.0</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
 			<version>2.5.2</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>javax.ws.rs</groupId>
 			<artifactId>jsr311-api</artifactId>
 			<version>1.1.1</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.5.2</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-bundle</artifactId>
 			<version>1.18</version>
-			<scope>provided</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-core-asl</artifactId>
 			<version>1.9.9</version>
-			<scope>provided</scope>
+			
 		</dependency>
 	</dependencies>
 	<repositories>
@@ -163,4 +163,4 @@
 			<url>file:///var/jenkins_home/.m2/repository/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	</project>
+</project>
