@@ -1,0 +1,10 @@
+var driver = new webdriver.Builder()
+    .forBrowser('chrome')
+    .build();
+
+driver.get('http://161.202.165.221:8080/');
+driver.findElement(By.name('Reference number')).sendKeys('sair2');
+driver.findElement(By.name('Username')).sendKeys('saikrishna');
+driver.findElement(By.name('Password')).sendKeys('Krishna123$');
+driver.findElement(By.name('Login')).click();
+driver.quit();
